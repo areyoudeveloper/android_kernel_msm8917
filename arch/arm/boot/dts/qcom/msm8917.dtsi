@@ -418,7 +418,7 @@
 		compatible = "qcom,msm-thermal";
 		qcom,sensor-id = <5>;
 		qcom,poll-ms = <250>;
-		qcom,limit-temp = <60>;
+		qcom,limit-temp = <65>;
 		qcom,temp-hysteresis = <10>;
 		qcom,freq-step = <2>;
 		qcom,core-limit-temp = <80>;
@@ -436,7 +436,7 @@
 		qcom,disable-vdd-mx;
 		qcom,disable-psm;
 		qcom,disable-ocr;
-		qcom,vdd-restriction-temp = <5>;
+		qcom,vdd-restriction-temp = <6>;
 		qcom,vdd-restriction-temp-hysteresis = <10>;
 		vdd-dig-supply = <&pm8917_s2_floor_level>;
 
@@ -831,7 +831,7 @@
 			< 1094400000 2>,
 			< 1248000000 3>,
 			< 1344000000 4>,
-			< 1497600000 5>,
+			< 1497600000 5>;
             
 		
 		qcom,speed1-bin-v0-c1 =
@@ -844,7 +844,7 @@
 			< 1094400000 2>,
 			< 1248000000 3>,
 			< 1344000000 4>,
-			< 1497600000 5>,
+			< 1497600000 5>;
            
 		
 		#clock-cells = <1>;
@@ -868,7 +868,7 @@
 			 < 1094400 >,
 			 < 1248000 >,
 			 < 1344000 >,
-			 < 1497600 >,
+			 < 1497600 >;
 
 	};
 
