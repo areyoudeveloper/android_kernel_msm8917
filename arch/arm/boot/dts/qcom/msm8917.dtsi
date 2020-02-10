@@ -23,7 +23,7 @@
 	interrupt-parent = <&intc>;
 
 	chosen {
-		bootargs = "boot_cpus=0,1,2,3 sched_enable_hmp=1 threadirqs";
+		bootargs = "sched_enable_hmp=1";
 	};
 
 	aliases {
@@ -1009,6 +1009,7 @@
 		cpu-to-dev-map =
 			<  998400  4248 >,
 			< 1094400  4541 >,
+			< 1344000  5126 >,
 			< 1497600  5645 >;
 		};
 
@@ -1017,6 +1018,7 @@
 			cpu-to-dev-map =
 				<  998400 2270 >,
 				< 1094400 4248 >,
+				< 1344000  5126 >,
 				< 1497600 4248 >;
 		};
 	};
